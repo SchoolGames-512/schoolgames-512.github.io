@@ -1,2 +1,2 @@
-# schoolgames-512.github.io
-Home page
+# Home page for schoolgames-512
+:)
