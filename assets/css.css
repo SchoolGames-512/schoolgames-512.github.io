@@ -1,9 +1,54 @@
-#rbt {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-family: sans-serif;
-  font-size: 6rem;
-  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+/* rainbow text */
+#shadowBox {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Black w/opacity/see-through */
+  border: 3px solid;
 }
+.rainbow {
+  animation: colorRotate 6s linear 0s infinite;
+}
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+/* Misc css */
+.title {
+  text-align: center;
+  font-size: 350%;
+}
+hr {
+  border: none;
+  border-top: 10px solid rgb(116, 116, 116);
+  color: black;
+  height: 5px;
+  margin: 5px 0;
+  opacity: 100%;
+}
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b6/Phoenix_dwarf_galaxy.jpg);
+}
+.thumbnail {
+  max-height: 7.5%;
+  max-width: 7.5%;
+}
+.iframemod {
+  width: 74%;
+  height: 50%;
+  border: none;
+  padding-left: 25%;
+} 
