@@ -26,11 +26,20 @@
     color: #6666ff;
   }
 }
-/* Misc css */
+/* Main css */
 .title {
   text-align: center;
   font-size: 350%;
 }
+.thumbnail {
+  max-height: 7.5%;
+  max-width: 7.5%;
+}
+.bottom {
+  bottom: 0px;
+  position: fixed;
+}
+/* Misc css */
 hr {
   border: none;
   border-top: 10px solid rgb(116, 116, 116);
@@ -42,13 +51,3 @@ hr {
 body {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b6/Phoenix_dwarf_galaxy.jpg);
 }
-.thumbnail {
-  max-height: 7.5%;
-  max-width: 7.5%;
-}
-.iframemod {
-  width: 74%;
-  height: 50%;
-  border: none;
-  padding-left: 25%;
-} 
