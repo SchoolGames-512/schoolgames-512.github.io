@@ -1,5 +1,4 @@
 // No scrolling with arrow keys
-
 window.addEventListener('keydown', (e) => {
     if (e.target.localName != 'input') {   // if you need to filter <input> elements
         switch (e.keyCode) {
@@ -17,5 +16,4 @@ window.addEventListener('keydown', (e) => {
     }
 }, {
     capture: true,   // this disables arrow key scrolling in modern Chrome
-    passive: false   // this is optional, my code works without it
 });
