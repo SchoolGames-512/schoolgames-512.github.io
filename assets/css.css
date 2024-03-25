@@ -38,10 +38,6 @@
   width: 7.5%;
   object-fit: fill;
 }
-.iframemod {
-  max-width: 50%;
-  max-height: 50%;
-}
 .bottom {
   bottom: 0px;
   position: fixed;
