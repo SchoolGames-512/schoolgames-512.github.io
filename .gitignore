@@ -3,3 +3,4 @@ temp/
 *.log
 .git/
 .vscode/
+.gitignore
